@@ -1,0 +1,54 @@
+/*CSS for hockey.html*/
+.img-custom {
+  width: 30vw;
+  height: auto;
+}
+.img-top {
+  float: left;
+}
+.img-bottom {
+  float: right;
+}
+@media screen and (max-width: 620px){
+  .img-custom {
+    display:none;
+  }
+}
+/*CSS for baseball.html*/
+.together {
+  display: flex;
+  margin: 2px;
+}
+.side-imd {
+  flex: 2;
+  margin: 2px;
+  padding-right: 5px;
+}
+.side-text {
+  flex: 1;
+  margin: 2px;
+  padding-left: 5px;
+}
+.img-customer {
+  width: 40vw;
+  height: auto; 
+}
+@media screen and (max-width: 620px) {
+  .img-customer {
+    width: 100vw;
+    height: auto;
+    margin-right: 3px;
+  }
+  .together {
+    display: flex;
+    flex-direction: column;
+  }
+  .side-text {
+    text: wrap;
+  }
+}
+/*CSS for footus.html*/
+.bandeau {
+  width: 100vw;
+  height: 250px;
+}
