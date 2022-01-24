@@ -22,7 +22,7 @@
 }
 .side-left {
   width: 50%;
-  margin: 6px;
+  margin: 5px;
   padding: 0px 10px;
 }
 .side-right {
@@ -41,12 +41,12 @@
     height: auto;
     margin-right: 3px;
   }
-  .together {
-    display: flex;
-    flex-direction: column;
+  .side-left {
+    display: none;
   }
-  .bottom-side {
-    width: 100vw;
+  .side-right {
+    display: block;
+    width: 90vw;
     margin: auto;
   }
 }
@@ -61,8 +61,23 @@
   width: 60vw;
   height: auto;
 }
-/*CSS for inderx.html*/
-figure img {
-  height: 100px;
-  width: 100px;
+/*CSS for index.html*/
+.img-index {
+  height: 180px; 
+  width: 180px;
+}
+@media screen and (max-width: 790px) {
+  .img-index {
+    display: none;
+  }
+}
+@media screen and (max-width: 620px) {
+  .top-view {
+    display: block;
+    width: 100vw;
+  }
+  .bottom-view {
+    display: block;
+    width: 100vw;
+  }
 }
