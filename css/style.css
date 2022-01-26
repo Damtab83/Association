@@ -16,38 +16,26 @@
 }
 /*CSS for baseball.html*/
 .together {
-  display: flex;
   margin: 2px;
   height: auto;
-}
-.side-left {
-  width: 50%;
+  width: 100vw;
   margin: 5px;
   padding: 0px 10px;
 }
-.side-right {
-  width: 40%;
-  margin: auto;
-  padding-left: 5px;
-  text-align: justify;
+.together p {
+  margin: 3px;
+  padding: 3px;
 }
 .img-customer {
+  float: left;
   width: 50vw;
-  height: auto; 
+  height: 60vh; 
+  margin: 3px;
+  padding: 5px;
 }
 @media screen and (max-width: 620px) {
   .img-customer {
-    width: 100vw;
-    height: auto;
-    margin-right: 3px;
-  }
-  .side-left {
     display: none;
-  }
-  .side-right {
-    display: block;
-    width: 90vw;
-    margin: auto;
   }
 }
 /*CSS for footus.html*/
@@ -62,22 +50,36 @@
   height: auto;
 }
 /*CSS for index.html*/
+.content {
+
+}
 .img-index {
-  height: 180px; 
+  height: 90%; 
   width: 180px;
 }
-@media screen and (max-width: 790px) {
+.top-view {
+  width: 50%;
+}
+.bottom-view {
+  width: 40%;
+  margin: auto;
+  padding-left: 5px;
+  text-align: justify;
+}
+@media screen and (max-width: 820px) {
   .img-index {
     display: none;
   }
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 575px) {
   .top-view {
-    display: block;
     width: 100vw;
+    margin: auto;
+    padding: 5px;
   }
   .bottom-view {
-    display: block;
     width: 100vw;
+    margin: auto;
+    padding: 5px;
   }
 }
