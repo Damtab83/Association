@@ -23,3 +23,5 @@ Activités américaines de sports.
 
 
 website: eval-association.netlify.app
+
+Ce site a été le premier site que j'ai conçu. Le faite de le laisser présent me montre la progression que j'ai effectué en codage et pour me rappeler que l'on peut toujours progresser.
